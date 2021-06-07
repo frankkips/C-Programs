@@ -14,7 +14,7 @@ int main()
 
         if (number < 0.0)
         {
-            continue;
+            break;
         }
 
         sum += number;

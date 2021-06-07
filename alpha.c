@@ -1,5 +1,11 @@
 #include<stdio.h>
 //Pyramid of alphabet
+/* Kisepen Ester mokorayat
+   Inyoru kwanda eng komasin
+   Tinye ndogondogo
+   Tinye nebo town
+   Mtoni oooh anyiny
+*/
 
 int main()
 {
