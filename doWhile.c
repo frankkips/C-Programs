@@ -3,17 +3,19 @@
 
 int main()
 {
-    double number, sum = 0;
-
-    do
-    {
-        printf("Enter a number: ");
-        scanf("%lf" , &number);
-        sum += number;
-    } 
-    while(number != 0.0);
-
-    printf("Sum = %.2lf" , sum);
-
+    int i , j;
+    i = 0;
+    
+    do{
+        j = 1;
+        do{
+            printf("%d" , j);
+            j++;
+        }
+        while (j <= i);
+        printf("\n");
+        i++;
+    }
+    while (i <= 5);
     return 0;
 }
