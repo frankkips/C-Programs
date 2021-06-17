@@ -4,7 +4,7 @@
 int main()
 {
     int i , j;
-    i = 0;
+    i = 1;
     
     do{
         j = 1;
