@@ -3,6 +3,7 @@
 int main()
 {
     int i,j,rows;
+    puts("Hii n ka Example");
     printf("Enter the number of rows? ");
     scanf("%d", &rows);
     
