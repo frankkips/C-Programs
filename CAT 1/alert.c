@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    printf("\a");
+    printf("Kwenda uko");
     return 0;
 }
