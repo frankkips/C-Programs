@@ -13,3 +13,4 @@ int main()
 	printf("The number of molecules in %d quarts is %lf molecules", quart,molecules);
 	return 0;
 }
+EOF
