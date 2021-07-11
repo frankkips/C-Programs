@@ -1,16 +1,19 @@
 #include <stdio.h>
-
-int main(){
-    int cat[5], exam[5], total[5];
+main(){
+    int cat[5], exam[5], total[5] , names[28];
     char grade[10];
+    printf("Input name for 10 students, Press Enter after each entry:\n");
+    for (int i = 0; i < 5; i++){
+        scanf("%s" , &names[i]);
+    }
     printf("Input CAT for 10 students, Press Enter after each entry:\n");
-    for (int i = 0; i < 10; i++){
+    for (int i = 0; i < 5; i++){
         scanf("%d" , &cat[i]);
     }
     printf("Input EXAM for 10 students, Press Enter after each entry:\n");
     for (int i = 0; i < 10; i++){
         scanf("%d" , &exam[i]);
-        total[i] = 0.5*(cat[i] + exam[i]);
+        total[i] = (cat[i] + exam[i]);
     }
     for (int i = 0; i < 5; i++){
         if (total[i]>= 70)
