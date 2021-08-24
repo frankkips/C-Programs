@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <curses.h>
 #include <stdlib.h>
-#include <conio.h>
 
 int i , j , height = 20 , width = 20 , gameover ,score;
 int x , y ,fruitx , fruity , flag;
@@ -89,8 +88,13 @@ void logic(){
     }
 }
 int main(){
-    draw();
+    int m , n;
     setup();
-    input();
+    while(!gameover){
+        draw();
+        input();
+        logic();
+    }
+    
     return 0;
 }
