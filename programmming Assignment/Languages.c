@@ -14,5 +14,5 @@ int main(void){
     printf("The value for price1 is %d and for price2 is %d\n" , c.price1 , c.price2);
     c.price2 = 600;
     printf("price1 is %d" , c.price2);
-    //The union stores two variables in the same memory loaction
+    //The union stores two variables in the same memory location
 }
